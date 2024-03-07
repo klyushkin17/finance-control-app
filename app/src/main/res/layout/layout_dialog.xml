@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Spinner
+        android:id="@+id/type_spinner"
+        android:layout_width="233dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"/>
+
+    <EditText
+        android:id="@+id/expense_amount_edit_text"
+        android:layout_width="233dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="90dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/add_button"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="190dp"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:text="Add" />
+</RelativeLayout>
